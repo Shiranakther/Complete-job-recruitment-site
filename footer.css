@@ -1,0 +1,131 @@
+.footer{
+  margin-top:10px;
+  background-color:aliceblue;
+  height:360px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align: center;
+}
+    .footer-top{
+      display:flex;
+      flex-direction:row;
+      justify-content:space-between;
+
+    }
+    .footer-top-div1{
+      display:flex;
+      flex-direction:row;
+
+    }
+    .footer-top-div1-image{
+      height:300px;
+      width:250px;
+     
+    }
+
+    .award{
+      height:280px;
+      width:245px;
+    }
+    .footer-top-div1-content{
+      display:flex;
+      flex-direction:column;
+      width:350px;
+      
+    }
+    .footer-top-div1-content-h1{
+      color:rgb(22, 2, 119);
+      font-weight: bold;
+      font-size: 60px;
+      
+    }
+    .footer-top-div1-content-h2{
+      font-size:27px;
+      color:rgb(22, 2, 119);
+      
+    }
+    .footer-top-div1-content-h3{
+      font-size:40px;
+      color:rgb(22, 2, 119);
+      
+    }
+    .footer-top-div1-content-h4{
+      font-size:30px;
+      color:rgb(11, 17, 137);
+      
+    }
+    .footer-top-div1-content-h5{
+      font-size:80px;
+      font-weight: bold;
+      color:rgb(53, 9, 71);
+
+    }
+      .footer-top-div2{
+        display:flex;
+        flex-direction: column;
+       
+
+      }
+      .footer-top-div3{
+        display:flex;
+        flex-direction: column;
+         
+        
+      }
+      .footer-top-div4{
+        display:flex;
+        flex-direction: column;
+        
+        
+      }
+          .footer-topic{
+            color:rgb(8, 84, 99);
+           font-size:35px;
+           margin-right:10px;
+           margin-top:10px;
+           margin-bottom:20px;
+           
+          }
+          .footer-text{
+            color:rgb(14, 8, 85);
+            font-size:25px;
+            margin-bottom:20px;
+            cursor:pointer;
+            
+          }
+            
+          
+    .footer-bottom{
+      background-color: rgb(0, 0, 0);
+      height:60px;
+      font-size: 13px;;
+      color:white;
+      padding-top:20px;
+      border-radius:5px;
+    }
+    .hrs{
+      height:1px;
+      width:90%;
+      background-color: black;;
+    }
+    .apps{
+      height:100px;
+      width:250px;
+      cursor: pointer;
+    }
+    .apps-appl{
+      height:65px;
+      width:220px;
+      cursor: pointer;
+    }
+a{
+  text-decoration:none;
+}
+a:hover{
+  text-decoration:none;
+}
+a:active{
+  text-decoration:none;
+}
+  

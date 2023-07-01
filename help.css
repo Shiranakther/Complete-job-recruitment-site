@@ -1,0 +1,171 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+ 
+
+}
+   .find-job{
+  margin-top:20px;
+  background-color:rgb(233, 241, 247);
+  height:200px;
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+}
+  .find-job-h1{
+    color:rgb(110, 5, 119);
+    font-size: 50px;
+    font-weight: bold;
+
+  }
+  .find-job-h2{
+    margin-top:5px;
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(8, 77, 130);
+
+  }
+  .find-job-h3{
+    margin-top:40px;
+
+  }
+      .find-job-h3-search1{
+        height:44px;
+        width:500px;
+        border:none;
+        border-radius:5px;
+        
+        box-shadow: 2px 2px rgba(178, 175, 175,0.5);
+        outline: none;
+
+      
+      }
+      
+      .find-job-h3-search2{
+        margin-left:40px;
+        height:44px;
+        width:200px;
+        border:none;
+        border-radius:5px;
+        box-shadow: 2px 2px rgba(178, 175, 175,0.5);
+        outline: none;
+      }
+      .find-job-h3-search3{
+        margin-left:40px;
+        height:45px;
+        width:150px;
+        font-weight: bold;
+        font-size:18px;
+        background-color: rgb(13, 112, 186);
+        color:white;
+        border:none;
+        border-radius:5px;
+        
+
+      }
+      .find-job-h3-search3:hover{
+        transform: scale(1.1);
+        transition-duration: 0.4s;
+        background-color:rgb(8, 77, 130);
+
+      }
+      .questions{
+        
+        display:grid;
+        grid-template-columns: 1fr 1fr ;
+        margin-top:20px;
+        margin-bottom:20px;
+        padding-bottom:20px;
+        row-gap:40px;
+        
+        align-items: center;
+        text-align: center;
+       padding-left:90px;
+       padding-top:20px;
+        
+      }
+      .questions-div{
+        
+        background-color: rgb(238, 244, 255);
+        padding-left:40px;
+        display:flex;
+        flex-direction:row;
+        justify-content: space-evenly;
+        position: relative;
+        max-width:600px;
+        height:270px;
+        align-content: center;
+        border:2px rgb(6, 6, 120) solid;
+        border-radius:20px;
+      }
+      .question-image{
+        height:150px;
+        width:150px;
+        border:3px rgb(7, 7, 132) solid;
+        border-radius:20px;
+        margin-top:50px;
+      }
+      .help-img{
+        height:100px;
+        margin-top:25px;
+      }
+      .question-description{
+       
+        width:400px;
+        text-align: left;
+        margin-left:40px;
+        display:flex;
+        flex-direction:column;
+        
+        
+      }
+      .question-topic{
+        text-decoration: underline;
+        font-size: 25px;
+        color:rgb(4, 16, 77);
+        margin-top:35px;
+      }
+      .question-name{
+        
+        font-size: 20px;
+        margin-top: 0px;
+        color:rgb(85, 12, 12);
+      }
+      .questions-explore-button{
+        position: absolute;
+        bottom:5px;
+        right:10px;
+        height:35px;
+        width:150px;
+        font-size:18px;
+        font-weight:bold;
+        color:white;
+        background-color:rgb(46, 64, 203);
+        border-radius:10px;
+        border:none;
+      }
+      .ask-help{             
+        display:flex;
+        flex-direction:column;
+        align-items: start;
+      }
+      .ask-help-h1{
+        font-size: 25px;
+        font-weight:bold;
+      }
+      .ask-help-button{
+        height:40px;
+        width:150px;
+        font-size:20px;
+        background-color: rgb(6, 3, 86);
+        border-radius:10px;
+        border:none;
+        font-weight: bold;
+        color:white;
+  
+        
+      }
+      .ask-help-button:hover{
+        transform: scale(1.1);
+        transition-duration: 0.2s;             
+      }

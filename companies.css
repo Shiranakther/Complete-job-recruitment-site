@@ -1,0 +1,183 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+.find-job {
+  margin-top: 20px;
+  background-color: rgb(233, 241, 247);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.find-job-h1 {
+  color: rgb(110, 5, 119);
+  font-size: 50px;
+  font-weight: bold;
+}
+.find-job-h2 {
+  margin-top: 5px;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(8, 77, 130);
+}
+.find-job-h3 {
+  margin-top: 40px;
+}
+.find-job-h3-search1 {
+  height: 44px;
+  width: 500px;
+  border: none;
+  border-radius: 5px;
+
+  box-shadow: 2px 2px rgba(178, 175, 175, 0.5);
+  outline: none;
+}
+
+.find-job-h3-search2 {
+  margin-left: 40px;
+  height: 44px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px rgba(178, 175, 175, 0.5);
+  outline: none;
+}
+.find-job-h3-search3 {
+  margin-left: 40px;
+  height: 45px;
+  width: 150px;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: rgb(13, 112, 186);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.find-job-h3-search3:hover {
+  transform: scale(1.1);
+  transition-duration: 0.4s;
+  background-color: rgb(8, 77, 130);
+}
+.company-by-industry {
+  padding-bottom: 5px;
+
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.see-more-industry-button {
+  height: 40px;
+  width: 180px;
+  font-size: 20px;
+  margin-top: 40px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 15px;
+}
+.see-more-industry-button:hover {
+  transform: scale(1.1);
+  transition-duration: 0.2s;
+  background-color: rgb(14, 25, 34);
+  cursor: pointer;
+}
+.company-by-industry-h1 {
+  margin-top: 15px;
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(8, 77, 130);
+  margin-bottom: 20px;
+  width: auto;
+}
+.company-by-industry-companies {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 70px;
+}
+.company-by-industry-companies-div {
+  height: 200px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  background-color: rgb(249, 253, 255);
+}
+.company-by-industry-companies-div-image {
+  height: 130px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  border: 3px rgb(16, 91, 195) solid;
+  border-radius: 15px;
+}
+.industry-image {
+  height: 120px;
+  width: 120px;
+}
+.company-by-industry-companies-div-h2 {
+  margin-top: 20px;
+  font-size: 28px;
+  color: rgb(112, 5, 80);
+  font-weight: bold;
+}
+.populer-companies {
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+}
+.populer-companies-h1 {
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(8, 77, 130);
+  margin-bottom: 20px;
+
+  width: auto;
+}
+.populer-companies-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 30px;
+  column-gap: 70px;
+  margin-top: 10px;
+}
+.populer-companies-div-companies {
+  width: 500px;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 2px rgba(6, 54, 113, 0.616) solid;
+  border-radius: 15px;
+}
+.populer-companies-div-companies-image {
+  height: 120px;
+  width: 120px;
+  background-color: rgb(242, 247, 236);
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  border: 2px rgb(65, 3, 135) solid;
+  border-radius: 10px;
+}
+.populer-company-image {
+  height: 100px;
+  width: 100px;
+}
+.populer-companies-div-companies-description {
+  margin-left: 30px;
+  font-size: 30px;
+  font-weight: 800;
+  color: rgb(4, 9, 77);
+}

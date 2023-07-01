@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: rgb(7, 197, 93);
+      }
+      .maindiv {
+        display: flex;
+        flex-direction: column;
+        margin-left: 550px;
+        margin-top: 50px;
+      }
+      .js-info {
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(212, 225, 247);
+        height: 40px;
+        width: 600px;
+        align-items: center;
+        border-radius: 10px;
+        border: 2px rgb(2, 81, 134) solid;
+        padding-left: 20px;
+        color: rgb(5, 18, 101);
+        font-size: 25px;
+        font-weight: bold;
+        position: relative;
+        margin-top: 30px;
+      }
+      .js-info-detail {
+        color: rgb(65, 2, 78);
+        font-size: 23px;
+        padding-top: 4px;
+      }
+      .delete-button {
+        position: absolute;
+        right: 15px;
+        background-color: rgb(130, 6, 2);
+        color: white;
+        border: 1px rgb(121, 3, 3) solid;
+        height: 30px;
+        width: 80px;
+        border-radius: 10px;
+        bottom: 4px;
+      }
+      .update-button {
+        position: absolute;
+        right: 110px;
+        background-color: rgb(2, 130, 2);
+        color: white;
+        border: 1px rgb(3, 65, 3) solid;
+        height: 30px;
+        width: 80px;
+        border-radius: 10px;
+        bottom: 4px;
+      }
+      .delete-button:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        transition-duration: 0.2s;
+      }
+      .update-button:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        transition-duration: 0.2s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="maindiv">
+      <div class="js-info">
+        Name :
+        <div class="js-info-detail">
+          <?php echo $_SESSION["username"]."!"; ?>
+        </div>
+        <button class="update-button">UPDATE</button>
+        <button class="delete-button">DELETE</button>
+      </div>
+
+      <div class="js-info">
+        City :
+        <div class="js-info-detail">
+          <?php echo $_SESSION["usercity"]."!"; ?>
+        </div>
+        <button class="update-button">UPDATE</button>
+        <button class="delete-button">DELETE</button>
+      </div>
+
+      <div class="js-info">
+        E-mail :
+        <div class="js-info-detail">
+          <?php echo $_SESSION["useremail"]."!"; ?>
+        </div>
+        <button class="update-button">UPDATE</button>
+        <button class="delete-button">DELETE</button>
+      </div>
+
+      <div class="js-info">
+        Phone Number :
+        <div class="js-info-detail">
+          <?php echo $_SESSION["usertel"]."!"; ?>
+        </div>
+        <button class="update-button">UPDATE</button>
+        <button class="delete-button">DELETE</button>
+      </div>
+    </div>
+  </body>
+</html>
